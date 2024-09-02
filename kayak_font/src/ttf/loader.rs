@@ -241,7 +241,7 @@ impl AssetLoader for TTFLoader {
                         .unwrap();
                     let mut cursor = std::io::Cursor::new(Vec::new());
                     image_builder
-                        .write_to(&mut cursor, image::ImageOutputFormat::Png)
+                        .write_to(&mut cursor, image::ImageFormat::Png)
                         .unwrap();
 
                     writer
