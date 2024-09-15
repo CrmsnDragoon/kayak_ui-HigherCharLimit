@@ -17,5 +17,5 @@ find-crate = "0.6"
 syn = { version = "2.0.77", features = ["full", "extra-traits"] }
 quote = "1.0"
 proc-macro2 = "1.0"
-proc-macro-error = "1.0"
+proc-macro-error2 = "2.0"
 proc-macro-crate = "3.2.0"

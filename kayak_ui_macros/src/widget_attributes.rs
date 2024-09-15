@@ -1,5 +1,5 @@
 use proc_macro2::{Ident, TokenStream};
-use proc_macro_error::emit_error;
+use proc_macro_error2::emit_error;
 use quote::quote;
 use std::collections::HashSet;
 use syn::{

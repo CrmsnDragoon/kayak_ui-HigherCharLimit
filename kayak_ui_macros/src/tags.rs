@@ -1,5 +1,5 @@
 use crate::widget_attributes::WidgetAttributes;
-use proc_macro_error::abort;
+use proc_macro_error2::abort;
 use quote::quote;
 use syn::parse::{Parse, ParseStream, Result};
 use syn::spanned::Spanned;
